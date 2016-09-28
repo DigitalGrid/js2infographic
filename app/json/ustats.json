@@ -1,0 +1,157 @@
+{
+  "shdb": {
+    "info": {
+      "author": "Superhero Database",
+      "website": "http://www.superherodb.com",
+      "creationdate": "08/30/2016 07:09:53 am",
+      "description": "Averages of user generated stats and class. Minimal of three entries per character."
+    },
+    "character": [
+      {
+        "name": "Drax",
+        "realname": "Arthur Sampson Douglas",
+        "description": "After he and his family were killed by Thanos, Arthur Douglas was recreated as an Eternal known as Drax the Destroyer by Mentor and Kronos with the sole purpose of destroying Thanos.",
+        "powers": [
+          {
+            "name": "superhuman physiology",
+            "img": "images/superhuman-physiology.png"
+          },
+          {
+            "name": "healing factor",
+            "img": "images/healing-factor.png"
+          },
+          {
+            "name": "martial artist",
+            "img": "images/martial-artist.png"
+          }
+        ],
+        "thumbnail": "images/drax.jpg",
+        "ustats": {
+          "intelligence": "56",
+          "strength": "80",
+          "speed": "25",
+          "durability": "85",
+          "power": "39",
+          "combat": "65"
+        },
+        "uclass": "17"
+      },
+      {
+        "name": "Gamora",
+        "realname": "Gamora Zen Whoberi Ben Titan",
+        "description": "The sole surviving member of the Zen Whoberi, Gamora, was saved as a child by Thanos. Through Thanos' augmentation and training she became a highly skilled and feared galactic assassin. Using her new formidable skills and abilities, she gained the reputation and title of The Deadliest Woman in the Universe.",
+        "powers": [
+          {
+            "name": "superhuman physiology",
+            "img": "images/superhuman-physiology.png"
+          },
+          {
+            "name": "weapon specialist",
+            "img": "images/weapon-specialist.png"
+          },
+          {
+            "name": "healing factor",
+            "img": "images/healing-factor.png"
+          }
+        ],
+        "thumbnail": "images/gamora.jpg",
+        "ustats": {
+          "intelligence": "69",
+          "strength": "55",
+          "speed": "42",
+          "durability": "85",
+          "power": "46",
+          "combat": "100"
+        },
+        "uclass": "24"
+      },
+      {
+        "name": "Groot",
+        "realname": "Groot",
+        "description": "Groot is an extraterrestrial, sentient tree-like creature, and the monarch of Planet X. He is a founding member of Star-Lord's Guardians of the Galaxy, and is known for his longtime friendship with Rocket Raccoon.",
+        "powers": [
+          {
+            "name": "control plants",
+            "img": "images/chlorokinesis.png"
+          },
+          {
+            "name": "enhanced strength",
+            "img": "images/enhanced-strength.png"
+          },
+          {
+            "name": "healing factor",
+            "img": "images/healing-factor.png"
+          }
+        ],
+        "thumbnail": "images/groot.jpg",
+        "ustats": {
+          "intelligence": "35",
+          "strength": "85",
+          "speed": "35",
+          "durability": "70",
+          "power": "100",
+          "combat": "64"
+        },
+        "uclass": "20"
+      },
+      {
+        "name": "Rocket Raccoon",
+        "realname": "Rocket Raccoon",
+        "description": "A native of the planet Halfworld in the Keystone Quadrant, Rocket Raccoon is a longtime member of the Guardians of the Galaxy, usually serving as the team's strategist.",
+        "powers": [
+          {
+            "name": "enhanced senses",
+            "img": "images/enhanced-senses.png"
+          },
+          {
+            "name": "expert marksman",
+            "img": "images/expert-marksman.png"
+          },
+          {
+            "name": "master tactician",
+            "img": "images/master-tactician.png"
+          }
+        ],
+        "thumbnail": "images/rocket.jpg",
+        "ustats": {
+          "intelligence": "82",
+          "strength": "23",
+          "speed": "44",
+          "durability": "38",
+          "power": "33",
+          "combat": "74"
+        },
+        "uclass": "14"
+      },
+      {
+        "name": "Star-Lord",
+        "realname": "Peter Jason Quill",
+        "description": "Peter Quill was the first and also current Star-Lord, a human-alien-cyborg hybrid and member of the Guardians of the Galaxy. He is the son of J'son of Spartax who is the leader of the Spartoi Empire.",
+        "powers": [
+          {
+            "name": "expert marksman",
+            "img": "images/expert-marksman.png"
+          },
+          {
+            "name": "martial artist",
+            "img": "images/martial-artist.png"
+          },
+          {
+            "name": "master tactician",
+            "img": "images/master-tactician.png"
+          }
+        ],
+        "thumbnail": "images/star-lord.jpg",
+        "ustats": {
+          "intelligence": "78",
+          "strength": "29",
+          "speed": "40",
+          "durability": "52",
+          "power": "48",
+          "combat": "76"
+        },
+        "uclass": "15"
+      }
+    ]
+  }
+}

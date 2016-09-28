@@ -1,0 +1,245 @@
+/* ---------- 
+ Fonts 
+---------- */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@font-face {
+  font-family: Guardians;
+  src: url("../fonts/Guardians.ttf"); }
+
+/* ---------- 
+ General 
+---------- */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: scroll;
+  font-family: Lato, sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: Guardians, sans-serif;
+  color: #bbb; }
+
+p {
+  color: #aaa; }
+
+h1 {
+  color: #d0af64;
+  font-size: 3.5em;
+  margin-top: 60px;
+  margin-bottom: 80px; }
+
+h2 {
+  font-size: 1.5em;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+h3 {
+  font-size: 1em;
+  margin-bottom: 15px;
+  margin-top: 70px; }
+
+h4 {
+  font-size: 0.42em;
+  line-height: 140%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/* ---------- 
+ Specific 
+---------- */
+.header-img {
+  width: 60%; }
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.input-group-addon.primary {
+  color: white;
+  background-color: #444;
+  border-color: #444; }
+
+.loading {
+  margin-top: 100px;
+  text-align: center; }
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin: 0 auto; }
+
+.img-rounded {
+  border-radius: 100%; }
+
+.img-container {
+  position: relative; }
+
+/* character */
+.char-img {
+  cursor: pointer; }
+
+.char-title {
+  margin-top: 20px; }
+
+.char-title-container {
+  min-height: 60px; }
+
+.char-skillbars {
+  width: 100%; }
+
+.char-skillbars h3 {
+  margin-bottom: 25px; }
+
+.char-skillbars h4 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  line-height: 0; }
+
+.char-skillbar-back, .char-skillbar {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px; }
+
+.char-skillbar-back {
+  position: relative;
+  background-color: #111; }
+
+.char-skillbar-back:hover {
+  cursor: pointer; }
+
+.char-skillbar {
+  background-image: linear-gradient(#ab3936, #7b2724);
+  height: 22px;
+  width: 0px;
+  margin-bottom: 10px; }
+
+.char-skillbar-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.char-powers {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; }
+
+.char-description-container {
+  margin-bottom: 50px; }
+
+.result-container {
+  padding: 60px 20px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 1000px; }
+
+/* ---------- 
+ Animations 
+---------- */
+.vis-none {
+  display: none; }
+
+.vis-hidden {
+  visibility: hidden; }
+
+.char-img {
+  transition: transform 0.6s, opacity 0.6s; }
+
+.char-img:hover {
+  transform: scale(1.11111);
+  opacity: 0.15; }
+
+.fade-in-only {
+  animation-name: fade-in-only;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out; }
+
+@keyframes fade-in-only {
+  0% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1; } }
+
+.fade-in-simple {
+  animation-name: fade-in-simple;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out; }
+
+@keyframes fade-in-simple {
+  0% {
+    transform: scale(0);
+    opacity: 0.0; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out; }
+
+@keyframes fade-in {
+  0% {
+    transform: scale(0);
+    opacity: 0.0; }
+  65% {
+    transform: scale(1.06); }
+  80% {
+    transform: scale(0.92); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+
+/* ---------- 
+ Extra Grid / width
+---------- */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.col-xs-15 {
+  width: 20%;
+  float: left; }
+
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 1500px) {
+  .container {
+    width: 1400px; } }
+
+.testing {
+  width: 71.42857%;
+  height: auto; }
